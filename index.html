@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="todo-app">
+
+        <h1>My ToDo</h1>
+
+        <p id="counter">0 completed</p>
+
+        <div class="input-area">
+            <input type="text" id="taskInput">
+            <button id="addBtn">OK</button>
+        </div>
+
+        <p id="errorMsg" class="error hidden">
+            Input must not be empty
+        </p>
+
+        <ul id="taskList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
